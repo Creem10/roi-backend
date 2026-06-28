@@ -1,0 +1,16 @@
+{
+  "name": "roi-builder-bill-backend",
+  "version": "1.0.0",
+  "description": "Backend that lets the Sustainability ROI Builder safely extract data from uploaded utility bills using Claude.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
