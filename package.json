@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=18"
   },
-  "dependencies": }
+  "dependencies": {
     "express": "^4.19.2",
     "cors": "^2.8.5"
   }
