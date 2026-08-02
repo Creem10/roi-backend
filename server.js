@@ -16,7 +16,8 @@
 const express = require('express');
 const cors = require('cors');
 
-const app = express();const registerWorkspaceRoutes = require('./workspace-routes');
+const app = express();
+const registerWorkspaceRoutes = require('./workspace-routes');
    registerWorkspaceRoutes(app);
 app.use(cors());                 // Allows your webpage to call this server
 app.use(express.json({ limit: '15mb' })); // Allows large file uploads (bill PDFs/images)
